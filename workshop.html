@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="form-echo.php" method="get">
+        USERNAME :
+        <input pattern="[a-z]{1,5}" type="text" name="username" placeholder="Username">
+        <p><label>สาขาวิชา: </label>
+
+        <select name="dept">
+            <option value="">--Please Choose an Option--</option>
+            <option value="CS">CS</option>
+            <option value="IC">IC</option>
+            <option value="MA">MA</option>                <option value="IMI">IMI</option>
+            <option value="AS">AS</option>
+            <option value="AFET">AFET</option>
+        </select>
+        <p><input type="submit" value="Submit">
+    </form>
+
+
+
+</body>
+
+</html>

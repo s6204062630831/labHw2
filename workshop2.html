@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form-echo.php" method="get">
+        <input type="text" name="test1" placeholder="test1" pattern="[a-zA-Z][a-zA-Z][a-zA-Z]" >1.สระภาษาอังกฤษ3ตัว<br>
+        <input type="text" name="test2" placeholder="test2" pattern="[A-Z][a-z]+" >2.ขึ้นต้นด้วยตัวใหญ่ตัวแรกที่เหลือแเป็นพิมพ์เล็กตั้งแต่1ตัวขึ้นไป<br>
+        <input type="text" name="test3" placeholder="test3" pattern="(ord|order)*\d\d\d\d\d" >3.ขึ้นต้นด้วย ordหรือorder ลงท้ายด้วยเลข5หลัก<br>
+        <input type="text" name="test4" placeholder="test4" pattern="([bc][l]|[f][r])og" >4.ต้องเป็นคำว่า frogหรือblogหรือclog เท่านั้น<br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
